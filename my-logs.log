@@ -1,0 +1,4 @@
+28-Sep-19 17:52:31 - 2 file(s) passed as an input from command line
+28-Sep-19 17:52:31 - input_files/pipeline_input_user_export_1.csv read
+28-Sep-19 17:52:31 - input_files/pipeline_input_user_export_2.csv read
+28-Sep-19 17:52:31 - Output written to output.json file
