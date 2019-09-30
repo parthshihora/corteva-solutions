@@ -31,7 +31,6 @@ def main():
             # Opening csv file, passed as a command line argument
             try:
                 with open(sys.argv[x+1]) as csv_file:
-
                     # Check whether file is CSV or not
                     if not csv_file.name.endswith('.csv'):
                         print('File ', x, ' is not CSV file')
@@ -51,6 +50,8 @@ def main():
             except FileNotFoundError:
                 logging.info('%s file not found' % sys.argv[x + 1])
                 print('Please give correct path for file ', x+1)
+
+        #Writing data to JSON file
         json.dump(json_data, json_file, indent=4)
         logging.info('Output written to output.json file')
 
